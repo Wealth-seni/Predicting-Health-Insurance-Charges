@@ -1,43 +1,44 @@
-# Predicting-Health-Insurance-Charges
-A Data Science and Machine Learning Project involving the Transformation and Analysis of historic health insurance data to Build, Train and Evaluate Models that predict Insurance charges based on biodata provided
+# Predicting Health Insurance Charges
 
-# Dataset
+## Overview
+This project is a Data Science and Machine Learning endeavor involving the transformation and analysis of historic health insurance data. The goal is to build, train, and evaluate models that predict insurance charges based on provided biodata.
+
+## Dataset
 The dataset used for this project is sourced from Kaggle. It includes the following features:
-Age: Age of the insured individual
-Sex: Gender of the insured (male/female)
-BMI: Body mass index of the insured
-Chidren: Number of children covered under the policy
-Smoker: Smoking status of the insured (yes/no)
-Claim_Amount: The amount insured
-Past_consultations: Number of consultations made regards health so far 
-Num_of_steps: Number of Steps taken
-Hospital_expenditure: Amount spent on hospital bills
-Number_of_past_hospitalizations: Number of times insured has been prevously hospitalised
-Anual_Salary: Amount of salary earned in a year	
-Region of the insured (northeast, northwest, southeast, southwest)
+- Age: Age of the insured individual
+- Sex: Gender of the insured (male/female)
+- BMI: Body mass index of the insured
+- Children: Number of children covered under the policy
+- Smoker: Smoking status of the insured (yes/no)
+- Claim_Amount: The insured amount
+- Past_consultations: Number of health consultations
+- Num_of_steps: Number of steps taken
+- Hospital_expenditure: Amount spent on hospital bills
+- Number_of_past_hospitalizations: Previous hospitalizations
+- Annual_Salary: Annual salary earned
+- Region: Region of the insured (northeast, northwest, southeast, southwest)
 
-# EDA Tools
-Pandas
-Numpy
-Seaborn
-Matplotlib
+## EDA Tools
+- Pandas
+- Numpy
+- Seaborn
+- Matplotlib
 
-# Data preprocessing and Model building tools
-Scikit-learn
-XGBoost
+## Data Preprocessing and Model Building Tools
+- Scikit-learn
+- XGBoost
 
-# Models used
-Linear Regression
-Random Forest
-XGBoost
+## Models Used
+- Linear Regression
+- Random Forest
+- XGBoost
 
+## Metrics of Performance Evaluation
+- R2 Score
+- Mean Squared Error (MSE)
+- Comparison of individual and ensemble models
 
-# Metrics of Performannce Evaluation
-R2Score
-MSE
-Comparism of individual and ensemble models
-
-# Model selected
+## Model Selected
 Ensemble of:
-Linear Regression: Basic model to establish a baseline prediction
-XGBoost (Extreme Gradient Boosting): Boosted tree algorithm known for its efficiency and accuracy in complex datasets
+- Linear Regression: Basic model to establish a baseline prediction
+- XGBoost (Extreme Gradient Boosting): Boosted tree algorithm known for its efficiency and accuracy in complex datasets
