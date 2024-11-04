@@ -1,7 +1,11 @@
 # Predicting Health Insurance Charges
 
 ## Overview
-This project is a Data Science and Machine Learning endeavor involving the transformation and analysis of historic health insurance data. The goal is to build, train, and evaluate models that predict insurance charges based on provided biodata.
+This project is a Data Science and Machine Learning endeavor involving the transformation and analysis of historic health insurance data. The goal is to build, train, and evaluate models that predict insurance charges based on provided biodata. This will:
+- Enable more accurate pricing strategies, potentially reducing underwriting risks and improving profitability.
+- Improve customer satisfaction by providing fairer premiums based on predictive analytics.
+- Support data-driven decision-making, allowing the company to tailor products and services to meet market demands more effectively.
+
 
 ## Dataset
 The dataset used for this project is sourced from Kaggle. It includes the following features:
